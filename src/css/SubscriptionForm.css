@@ -1,0 +1,59 @@
+.subscription-container {
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.form-container {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 307px;
+  opacity: 0.8;
+  background: #dfd7f9;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 10px;
+}
+.form-container p {
+  font-family: "Poppins";
+  font-size: 33px;
+  font-weight: normal;
+  line-height: 54px;
+  font-style: normal;
+  text-align: center;
+  color: #5e6282;
+  margin-top: 90px;
+  width: 859px;
+  height: 108px;
+}
+input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(226, 99, 99);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-icon {
+  position: absolute; 
+  top: -10px; 
+  right: -16px; 
+  width: 60px;
+  padding: 10px;
+  height: auto;
+  border-radius: 50%; 
+  background-color: #007bff; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

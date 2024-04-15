@@ -1,0 +1,105 @@
+/* Intro.css */
+
+.introduction-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  span{
+    display: flex;
+    margin-top: 30px;
+  }
+  .content{
+    margin-left: 200px;
+    width: 40%;
+  }
+  .DemoPlay{
+    margin-left: 10px;
+  }
+  .introduction-container .content h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    color:  rgba(196, 110, 110, 0.705);
+    
+  }
+  
+  .introduction-container .content h2 {
+    font-size: 70px;
+    margin-top: 10px;
+    text-align: left;
+    color: #181E4B;
+    font-family: "Volkhov";
+    line-height: 89px;
+  }
+  
+  .introduction-container .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Poppins";
+    color: #5e6282;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .introduction-container .content button {
+    background-color: #ffcc00; 
+    color: #ffffff; 
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .introduction-container .content button:hover {
+    background-color: #ffaa00; 
+  }
+  
+  .introduction-container .content .play-demo {
+    width: 60px; 
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .introduction-container .content p.play-demo-text {
+    font-size: 14px;
+  }
+  .play-demo{
+    height: 30px;
+  }
+   .content span{
+    display: flex;
+    margin-top: 30px;
+   }
+  
+  .introduction-container .image img {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .introduction-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .content {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+  
+    .introduction-container .image {
+      margin-top: 20px;
+    }
+  
+    .introduction-container .image img {
+      max-width: 100%;
+    }
+  }

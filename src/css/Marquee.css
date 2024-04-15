@@ -1,0 +1,36 @@
+.marquee-container {
+    overflow: hidden;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+  }
+  
+  .marquee {
+    display: flex;
+    animation: marquee-scroll 20s linear infinite;
+    width: auto; 
+  }
+  
+  .marquee img {
+    margin-right: 20px; 
+    width: 150px; 
+    height: auto; 
+  }
+  
+
+  .marquee-container:hover .marquee {
+    animation-play-state: paused;
+  }
+  
+  /* Keyframes for scrolling */
+  @keyframes marquee-scroll {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

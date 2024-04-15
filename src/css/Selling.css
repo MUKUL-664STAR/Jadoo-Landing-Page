@@ -1,0 +1,56 @@
+.selling-container {
+  text-align: center;
+}
+.selling-container h4 {
+  font-family: "Poppins";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #5e6282;
+  font-size: 18px;
+}
+.selling-container h2{
+  font-family: "Volkhov";
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #14183e;
+  margin-top: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  margin-right: -10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 300px;
+  height: 457px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-detail {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-detail p {
+  margin: 10px;
+}

@@ -1,0 +1,122 @@
+.Book {
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0px 1.8518518209457397px 3.1481480598449707px rgba(0,0,0,0 ));
+    background: #fff5f5,
+    
+}
+
+.BookContent {
+    margin-left: 80px;
+}
+
+.BookContent h5 {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #5e6282;
+}
+
+.BookContent h3 {
+    font-family: "Volkhov";
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #14183e;
+}
+
+.BookSteps {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.BookSteps1 {
+    display: flex;
+    margin-top: 26px;
+    
+}
+
+.BookContent span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.BookContent span h6 {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    font-style: normal;
+    text-align: left;
+    color: #5e6282;
+}
+
+.BookContent span p {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    font-style: normal;
+    text-align: left;
+    color: #5e6282;
+}
+.BookDetails{
+    display: flex;
+    flex-direction: column;
+
+}
+.BookThumbnail{
+width: 321px;
+height: 161px;
+border-radius: 24px;
+margin-top: 30px;
+box-shadow: 0px 4px 8px rgba(230, 106, 106, 0.1);
+background: white;
+padding: 20px;
+}
+.Booktrip{
+    margin-top: 10px;
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+font-style: normal;
+text-align: left;
+color: #080809;
+}
+.BookAuthor{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.BookAuthor p{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+font-style: normal;
+text-align: left;
+color: #84829a;
+}
+.BookAttendees img{
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #979797;
+}
+.BookAttendees p{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+font-style: normal;
+text-align: left;
+margin-top: 20px;
+color: #84829a;
+}
+
